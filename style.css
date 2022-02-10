@@ -484,7 +484,7 @@ button:focus {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110px;
+    width: 160px;
     font-size: 14px;
     color: #ffffff;
     background: #000;
@@ -492,7 +492,7 @@ button:focus {
 
 .skillbar-title span {
     display: block;
-    padding: 0 20px;
+    padding: 0 3px;
     height: 35px;
     line-height: 35px;
 }
