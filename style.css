@@ -1714,6 +1714,56 @@ input:-webkit-autofill {
     padding: 10px 20px;
 }
 
-.message {
-    width: ;
+/* media start */
+/* col-xl */
+@media(min-width: 1200px) {}
+
+/* col-lg */
+@media(min-width: 992px) and (max-width:1199px) {}
+
+/* col-md */
+@media(min-width: 768px) and (max-width:991px) {
+    .buttonn {
+        background: black;
+        display: flex;
+        text-transform: uppercase;
+        border: 2px solid;
+        padding: 153px;
+        color: white;
+        transition: 0.3s;
+        margin-top: 100px;
+        margin-left: 170px;
+    }
 }
+
+/* col-sm */
+@media(min-width: 576px) and (max-width:767px) {
+    .buttonn {
+        background: black;
+        display: flex;
+        text-transform: uppercase;
+        border: 2px solid;
+        padding: 153px;
+        color: white;
+        transition: 0.3s;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+}
+
+/* col */
+@media(max-width: 575px) {
+    .buttonn {
+        background: black;
+        display: flex;
+        text-transform: uppercase;
+        border: 2px solid;
+        padding: 153px;
+        color: white;
+        transition: 0.3s;
+        margin-top: 100px;
+        margin-left: 75px;
+    }
+}
+
+/* media end */
