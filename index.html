@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-
+    <link rel="stylesheet" href="send.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar-nav">
@@ -570,27 +570,12 @@
             <div class="row justify-content-center mb-5">
                 <div class="formm col-lg-10">
                     <!-- Form -->
-                    <form id="contact-form" action="mail.php" method="post" class="contact-form bg-white">
-                        <div class="row">
-                            <div class="col-lg-6 form-group">
-                                <input type="text" class="form-control" name="name" required placeholder="Name">
-                            </div>
-                            <div class="col-lg-6 form-group">
-                                <input type="email" class="form-control" name="email" required placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" required placeholder="Subject">
-                        </div>
-
-                        <div class="form-group">
-                            <textarea name="message" id="" class="form-control" required
-                                placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-btn text-center">
-                            <button class="button" type="submit">Send Message</button>
-                            <p class="form-message"></p>
-                        </div>
+                    <form class="contact-form bg-white" action="" onsubmit=" return sender()">
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Твоё имя)" required> <br>
+                        <input class="form-control" type="number" name="number" id="number" placeholder="Твой номер)" required> <br>
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Твой Эмаил" required><br>
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Напиши сообщение)" required></textarea>
+                        <input class="buttonn" type="submit" value="Отправить Сообщение" id="btn">
                     </form>
                     <!-- // Form -->
                 </div>
@@ -631,6 +616,7 @@
     <script src="assets/js/skill.bar.js"></script>
     <script src="assets/js/fact.counter.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="sender.js"></script>
 
 </body>
 

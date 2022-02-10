@@ -83,16 +83,20 @@ img {
     height: auto;
 }
 
-.button {
-    color: #fff;
-    display: inline-block;
+.buttonn {
+    background: black;
+    display: flex;
     text-transform: uppercase;
     border: 2px solid;
-    padding: 10px 20px;
+    padding: 153px;
+    color: white;
+    transition: 0.3s;
+    margin-top: 100px;
+    margin-left: 283px;
 }
 
-.button:hover {
-    color: #000;
+.buttonn:hover {
+    background: yellow;
 }
 
 .bg-a {
@@ -176,12 +180,15 @@ button:focus {
     25% {
         -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5)
     }
+
     50% {
         -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg)
     }
+
     75% {
         -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5)
     }
+
     100% {
         -webkit-transform: rotate(-360deg)
     }
@@ -192,18 +199,22 @@ button:focus {
         transform: translateX(42px) rotate(-90deg) scale(0.5);
         -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
     }
+
     50% {
         transform: translateX(42px) translateY(42px) rotate(-179deg);
         -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
     }
+
     50.1% {
         transform: translateX(42px) translateY(42px) rotate(-180deg);
         -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
     }
+
     75% {
         transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
         -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
     }
+
     100% {
         transform: rotate(-360deg);
         -webkit-transform: rotate(-360deg);
@@ -249,10 +260,11 @@ button:focus {
 /*::::::::::::::::::::::::::::::::::::
    Main Menu
 ::::::::::::::::::::::::::::::::::::*/
-.navbar{
+.navbar {
     -webkit-transition: .3s;
     transition: .3s;
 }
+
 .navbar-brand.logo img {
     max-height: 40px;
 }
@@ -866,7 +878,7 @@ button:focus {
 
 .single-faq h4[aria-expanded="true"]:after {
     -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
 }
 
 .single-faq h4:after {
@@ -1694,6 +1706,14 @@ input:-webkit-autofill {
     color: #ffc900;
 }
 
-.formm{
+.formm {
     margin-bottom: 250px;
+}
+
+.formm input {
+    padding: 10px 20px;
+}
+
+.message {
+    width: ;
 }
